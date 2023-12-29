@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* div {
+    width: 20px;
+    height: 35px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 30%;
+    position: relative;
+   }
+
+   .pointer{
+   width: 2px;
+   height: 2px;
+   background-color: black;
+   border-radius: 50%;
+   position: absolute;
+   top: 7px;
+   left: 40%;
+  animation-name: motion;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes motion {
+    0%{top: 7px;}
+    20%{top: 9px;}
+    40%{top: 12px;}
+    60%{top: 14px;}
+    80%{top: 17px;}
+    100%{top: 20px;}
+
+} */
+
+
+.parent {
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: 1s all;
+    
+}
+
+.child {
+    width: 24%;
+    height: 100%;
+    background-color: blue;
+    margin-top: 5px;
+   
+}
+
+@media(max-width:767px){
+    .child {
+        width: 49%;
+        height: 100%;
+        background-color: blue;
+        margin-top: 5px;
+    }
+}
+@media(max-width:575){
+    .child {
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+        margin-top: 5px;
+    }
+}
+.child img {
+    width: 100%;
+    height: 100%;
+}
+
+.child:hover img {
+    transform: rotate(30deg);
+    
+}
