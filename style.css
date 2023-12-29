@@ -5,13 +5,14 @@ body {
 }
 
 
-/* div {
+div {
     width: 20px;
     height: 35px;
     border: 2px solid black;
     margin: auto;
     border-radius: 30%;
     position: relative;
+    
    }
 
    .pointer{
@@ -35,10 +36,10 @@ body {
     80%{top: 17px;}
     100%{top: 20px;}
 
-} */
+}
 
 
-.parent {
+/* .parent {
     width: 90%;
     height: 300px;
     margin: auto;
@@ -82,4 +83,4 @@ body {
 .child:hover img {
     transform: rotate(30deg);
     
-}
+} */
